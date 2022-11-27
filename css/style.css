@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section {
+    display: block;
+}
+
+header {
+    color: black;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+
+#wrapper {
+    margin: 0px 125px;
+}
+
+nav {
+    margin-top: 26px;
+}
+
+nav a {
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: black;
+    opacity: 0.3;
+    margin: right 24px;
+    padding: 30px;
+
+}
+
+header {
+    width: 100%;
+    margin-top: 15px;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px, 2px 2px 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 48px;
+
+}
+
+
+.row {
+    display: flex;
+}
+
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.about-me {
+
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+    letter-spacing: 4px;
+    opacity: 0.7;
+    width: 730px;
+    margin-top: 80px;
+
+
+}
+
+img {
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+img {
+    float: left;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+li {
+    list-style-type: circle;
+}
+
+li li {
+    list-style-type: square;
+}
+
+p {
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    color: black;
+    opacity: 0.3;
+    margin: right 12px;
+    padding: 30px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+    font-family: Roboto;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+    background: #ccc;
+    height: 60vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+
+
+.footer-distributed p.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+}
